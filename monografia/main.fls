@@ -215,6 +215,25 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.st
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/lmodern.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
@@ -234,6 +253,9 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3b
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
@@ -266,6 +288,15 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epst
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+OUTPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmss.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmss.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmss.fd
@@ -379,12 +410,54 @@ INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione 
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.tex
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmtt12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmtt10.tfm
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ts1-lmtt10.tfm
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.bbl
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.bbl
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.bbl
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.bbl
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmsso12.tfm
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
+INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux
@@ -399,6 +472,7 @@ INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione 
 INPUT /Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmsc.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb
@@ -408,6 +482,8 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/l
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb
@@ -418,3 +494,5 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/l
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsso12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsso12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb
