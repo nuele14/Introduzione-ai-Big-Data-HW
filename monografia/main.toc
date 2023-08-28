@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Che cos'^^c3^^a8 LCA}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Da dove nasce}{4}{}%
+\contentsline {subsection}{\numberline {1.3}Utilizzo e obbiettivi}{5}{}%
+\contentsline {section}{\numberline {}Allegato 1}{7}{}%

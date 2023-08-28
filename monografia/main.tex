@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{float} %dovuto importare questo per poter mettere le figure dove voglio(solo con h! non adava dove volevo)
+\usepackage{listings}
+\usepackage{acronym}
+\usepackage[italian]{babel}
+\usepackage{newlfont}
+\usepackage{lmodern}
+
+
+
+\title{Introduzione ai Big Data - Monografia}
+\author{Emanuele Coltro}
+%\subtitle{Strumento per la sostenibilità o Greenwashing}
+\begin{document}
+\sffamily
+\include{titoli.tex}
+\include{abstract.tex}
+\tableofcontents
+
+\include{capitolo1.tex}
+\include{allegato1.tex}
+
+% ativo la parte sotto nel momento in cui faccio delle citazioni
+\newpage
+\bibliographystyle{plain}
+\bibliography{ref} 
+\end{document}
