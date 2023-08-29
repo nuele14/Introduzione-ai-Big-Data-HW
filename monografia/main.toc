@@ -19,5 +19,10 @@
 \contentsline {subsection}{\numberline {2.2}Analisi del Dataset}{10}{}%
 \contentsline {subsection}{\numberline {2.3}Risoluzione tramite codice R}{11}{}%
 \contentsline {subsection}{\numberline {2.4}MapReduce usando Javascript}{11}{}%
-\contentsline {section}{\numberline {3}Conclusioni}{14}{}%
-\contentsline {section}{\numberline {}Allegato 1}{15}{}%
+\contentsline {subsection}{\numberline {2.5}MapReduce usando R e Hadoop}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Scripting}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Implementazione in R}{13}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}MapReduce con Python e Hadoop}{14}{}%
+\contentsline {subsection}{\numberline {2.6}Analisi dei risultati}{14}{}%
+\contentsline {section}{\numberline {3}Conclusioni}{15}{}%
+\contentsline {section}{\numberline {}Allegato 1}{16}{}%

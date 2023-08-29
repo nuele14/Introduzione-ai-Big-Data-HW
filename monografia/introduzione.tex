@@ -70,7 +70,7 @@ Lo strumento è semplicemente uno strumento didattico di supporto per gli studen
 \subsection{Preparazione dell’ambiente}
 Affrontiamo ora il processo di installazione e configurazione dell'ambiente di sviluppo su macchina virtuale, che si è rivelato necessario per una corretta comunicazione tra Hadoop, RStudio e Python.
 
-Le principali motivazioni di questa scelta risiedono nel fatto che i packages di RHadoop per una corretta comunicazione tra RStudio e Hadoop non sono aggiornati alle ultime versioni (l’ultima release di RHadoop risale al 2015).
+Le principali motivazioni di questa scelta risiedono nel fatto che i packages di RHadoop per una corretta comunicazione tra RStudio e Hadoop non sono aggiornati alle ultime versioni \footnote{l’ultima release di RHadoop risale al 2015}.
 
 La scelta di utilizzare la versione di Hadoop all'interno di una macchina virtuale anziché installarla direttamente sul sistema locale è stata influenzata da problematiche di gestione del DFS estendendo tutto il disco a HDFS andando quindi a creare conflitti.
 
@@ -78,7 +78,7 @@ Sfruttando il contesto isolato che offre la virtualizzazione si ha potuti sperim
 
 Si è scelto Virtualbox come sistema di virtualizzazione in quanto software open source di ampia distribuzione.
 \subsubsection{Preparazione dell'ambiente virtuale}
-Il primo passo è stato creare una nuova macchina virtuale su VirtualBox dal sistema host (macOs Ventura 13.4 con 2,3 GHz Intel Core i5 dual-core e 16 GB 2133 MHz LPDDR3) assegnando risorse hardware adeguate.
+Il primo passo è stato creare una nuova macchina virtuale su VirtualBox dal sistema host assegnando risorse hardware adeguate.
 \begin{table}[ht]
 \centering
 \begin{tabularx}{\textwidth}{|X|X|X|X|X|}
@@ -94,7 +94,7 @@ VM & Ubuntu 16.04 & 1 CPU & 4 GB & 80 GB \\
 \label{tab:specifiche}
 \end{table}
     
-È stata scelta una distribuzione Linux (Ubuntu 16.04) come sistema operativo ospite per sfruttare la flessibilità e le prestazioni offerte da questa piattaforma open source. Essendo infatti Apache Hadoop un sistema utilizzato principalmente lato server, la sua implementazione più diffusa e stabile è in ambiente UNIX.
+È stata scelta una distribuzione Linux come sistema operativo ospite per sfruttare la flessibilità e le prestazioni offerte da questa piattaforma open source. Essendo infatti Apache Hadoop un sistema utilizzato principalmente lato server, la sua implementazione più diffusa e stabile è in ambiente UNIX.
 \subsubsection{Installazione di Hadoop}
 Per garanzie di compatibilità si è scelto la versione 2.6.5 di Apache Hadoop, andandolo a configurare in modalità Single Node Cluster. Successivamente si è anche cercato di aggiungere nodi al cluster ma con risultati poco stabili.\footnote{In una configurazione iniziale si era utilizzata sia una soluzione "fisica" con due Raspberry Pi 3 Model B come nodi dati, sia macchine virtuali Ubuntu Server 22.04. Entrambe le soluzioni hanno presentato problematiche, quindi si è preferito tornare alla configurazione Single Node.}
 \subsubsection{Integrazione di RStudio}

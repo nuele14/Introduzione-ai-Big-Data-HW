@@ -97,4 +97,36 @@ Serve fare una precisazione: in un paradigma di MapReduce normale, è possibile 
 
 Per il primo job, lo script di reduce andrà a recuperare tutti i valori relativi ad una determinata chiave, ovvero ad una data, e a calcolare la media (andandoli a sommare e successivamente a dividere per il numero di valori associati a quella data).
 
-Nel secondo job, andiamo a riciclare lo stesso script di mapping. Per la fase di reduce, andiamo prima a calcolarci la media di valori associati a quella data (esattamente come il job precedente). Il secondo passaggio è quello di andare a calcolarci per ogni valore lo scarto quadratico rispetto alla media, utilizzando la formula (Eq.\ref{eq:media}, Eq.\ref{eq:varianza}).
+Nel secondo job, andiamo a riciclare lo stesso script di mapping. Per la fase di reduce, andiamo prima a calcolarci la media di valori associati a quella data (esattamente come il job precedente). Il secondo passaggio è quello di andare a calcolarci per ogni valore lo scarto quadratico rispetto alla media, utilizzando la formula (Eq.\ref{eq:media}, Eq.\ref{eq:varianza}). Come ultimo step, ogni valore di scarto quadratico viene sommato alla media.
+
+Per il job 3 e il job 4, risultano necessari due passaggi del processo di MapReduce:
+\begin{itemize}
+    \item Il primo passaggio prevede di raccogliere la somma degli importi di ogni mese dell'anno (viene utilizzato parte del codice del primo job senza andare a calcolare la media, ma solo facendo la somma)
+    \item Il secondo passaggio prevede un mapping leggermente diverso, dove come chiave viene inserito l'anno e come valore viene inserito sia il mese che la media degli importi. Lo script di reduce andrà a cercare per ogni anno il valore massimo (per il job 3) e il valore minimo (per il job 4) dell'importo in maniera iterativa. Di conseguenza, questo ha permesso di salvare da parte le informazioni relative al mese e di riportarla a fine elaborazione.
+\end{itemize}
+\subsection{MapReduce usando R e Hadoop}
+\subsubsection{Scripting}
+Si è quindi passati ad implementare il MapReduce utilizzando script in R sulla piattaforma Hadoop. Per iniziare ad utilizzare la piattaforma, è fondamentale inizializzare le variabili d'ambiente e far partire i servizi per la gestione delle risorse (Yarn) e il file system condiviso (DFS).
+
+Per l'esecuzione del singolo script, vengono fatte altre operazioni preliminari: per ogni script viene prima eliminata e poi ricreata sul file system condiviso la cartella di lavoro (andando così a pulire le tracce delle precedenti elaborazioni). In seguito, viene caricato all'interno del DFS il file che andremo ad utilizzare come input. Finalmente, possiamo andare a lanciare il nostro script utilizzando lo streaming di Hadoop. Come ultimo passaggio, andiamo a visualizzare a schermo l'output prodotto, lo copiamo nell'hard disk locale e lo rinominiamo.
+
+Queste operazioni sono state automatizzate da uno script in Bash e sono state inserite delle chiamate per monitorare le tempistiche e le performance (per salvarle poi in un file).
+\subsubsection{Implementazione in R}
+Gli script in R prendono spunto da quelli utilizzati prima nel linguaggio Javascript. Lo script di mapping, come prima, prende il file in input e per ogni riga, estrae il tipo di ordine, la data e il costo, mandando in output solo le tipologie di ordine presenti nel filtro. Come detto già in precedenza, lo script di mapping è univoco per tutti e quattro i job.
+
+Nel primo script di reduce, andiamo a sfruttare quelle che sono le peculiarità del paradigma di mappare Douce, andando a creare un nuovo Environment. Successivamente, andiamo a leggere l'output dello script precedente, estrarre per ogni riga la data e l'importo, e controllare se all'interno del nuovo ambiente quella data è già stata inserita:
+\begin{itemize}
+    \item nel caso il valore della data (mese anno) non fosse presente, viene inserito come importo complessivo l'importo attuale e il conteggio degli elementi viene messo a uno. Il tutto poi viene inserito all'interno dell'ambiente.
+    \item Nel caso il valore se è già presente, viene recuperato l'importo complessivo, al quale si somma l'importo attuale, aumentato il conteggio di uno e inserito il tutto nuovamente all'interno dell'ambiente.
+\end{itemize}
+Una volta ultimato questo processo, si passa ad estrarre dall'Environment tutti i valori inseriti e si procede con un processo di "abbellimento" prima di mandare i dati in output.
+
+Il job 2, nel processo di reduce, ha una peculiarità: oltre ad implementare l'algoritmo per il calcolo della varianza (rispetto a quello di calcolo della media), per recuperare le informazioni relative alle medie, va a leggere all'interno del file system di Hadoop il file di output precedente.
+
+I job 3 e 4, invece, nella fase di reduce, salvano all'interno dell'ambiente la somma degli importi raggruppati per data (mese dell'anno). In un secondo momento, queste informazioni vengono recuperate, aggregate per anno ed estratti i valori di massimo e minimo.
+
+In questa fase, ho preferito non dilungarmi nell'analisi dell'algoritmo (visto che gran parte della complessità si è affrontata con i linguaggi precedenti), ma ho preferito dare risalto a quegli aspetti tipici di questo paradigma di programmazione che Hadoop offre.
+\subsubsection{MapReduce con Python e Hadoop}
+Visto che negli ultimi anni Python si sta affermando come linguaggio di programmazione per la data Science, molti programmi e piattaforme si sono aperti alla compatibilità con esso. Su Hadoop, è infatti possibile sfruttare il paradigma MapReduce facendo scripting, oltre che con R, anche con Java e Python. Ho voluto così tradurre il lavoro fatto fino adesso in R anche in Python e fare una piccola comparazione delle performance di questi due linguaggi. Anche qui, non entro nel merito dell'implementazione, in quanto l'algoritmo è esattamente lo stesso. Cambia solo il linguaggio in cui è scritto.
+
+\subsection{Analisi dei risultati}

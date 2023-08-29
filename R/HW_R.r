@@ -100,11 +100,11 @@ ggplot(varianza_mesi, aes(x = data_formattata, y = varianza)) +
 
 dati_vendite <- merge(media_mesi, varianza_mesi, by = "data", all = TRUE)
 
-ggplot(dati_vendite, aes(x = data_formattata, y = vendite_medie)) +
+ggplot(dati_vendite, aes(x = data_formattata.x, y = vendite_medie)) +
   geom_boxplot(fill = "lightblue", color = "darkblue") +
   geom_hline(aes(yintercept = mean(vendite_medie)), color = "red", linetype = "dashed", linewidth = 1) +
   geom_errorbar(aes(ymin = vendite_medie - varianza, ymax = vendite_medie + varianza), width = 0.2, color = "blue") +
-  labs(title = "Box Plot delle Vendite Mensili con Media e Varianza",
+  labs(title = "Box Plot della Varianza Vendite Mensili",
        x = "Data",
        y = "Varianza") +
   theme_minimal() +
