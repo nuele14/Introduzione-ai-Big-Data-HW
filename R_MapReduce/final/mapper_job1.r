@@ -8,7 +8,7 @@ while (length(line <- readLines(connessione, n = 1, warn = FALSE)) > 0) {
   # splitting the line into fields
   fields <- unlist(strsplit(line, ","))
 
-  tipoOrdine = fields[1]
+  tipoOrdine <- fields[1]
   data <- substr(fields[2], 1, 6)
   costo <- fields[3]
 

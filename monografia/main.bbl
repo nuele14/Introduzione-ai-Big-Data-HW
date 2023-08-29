@@ -1,14 +1,35 @@
 \begin{thebibliography}{1}
 
-\bibitem{EuropaSustaineble}
-European Commission.
-\newblock {Environment} sustainable use of natural resources.
-\newblock url: {https://ec.europa.eu/environment/archives/natres/index.htm}.
-\newblock Accessed: 2023-04-10.
+\bibitem{mapReduceGoogle}
+Jeffrey Dean and Sanjay Ghemawa.
+\newblock Mapreduce: Simplified data processing on large clusters.
+\newblock url:
+  {https://static.googleusercontent.com/media/research.google.com/it//archive/mapreduce-osdi04.pdf}.
 
-\bibitem{jolliet2015environmental}
-O.~Jolliet, M.~Saade, S.~Shaked, and A.~Jolliet.
-\newblock {\em Environmental Life Cycle Assessment}.
-\newblock Taylor \& Francis, 2015.
+\bibitem{installPython}
+Python~Software Foundation.
+\newblock Python.
+\newblock url: {https://www.python.org/}.
+
+\bibitem{ApacheHadoopSite}
+The Apache~Software Foundation.
+\newblock Apache hadoop.
+\newblock url: {https://hadoop.apache.org/}.
+
+\bibitem{installRstudio}
+PBC Posit.
+\newblock Rstudio ide.
+\newblock url: {https://www.rstudio.com/categories/rstudio-ide/}.
+
+\bibitem{installR}
+The~CRAN team.
+\newblock R archive.
+\newblock url: {https://cran.r-project.org/}.
+\newblock E-mail: CRAN@R-project.org.
+
+\bibitem{wikiPython}
+Wikipedia.
+\newblock Python.
+\newblock url: {https://it.wikipedia.org/wiki/Python}.
 
 \end{thebibliography}

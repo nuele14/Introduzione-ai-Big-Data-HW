@@ -12,7 +12,7 @@ calculate_sqm <- function(value, month) {
 }
 
 # prendo la media dal job 1
-nome_file_precedente <- "hadoop fs -text /prj/j1/output/medie_calcolate"
+nome_file_precedente <- "hadoop fs -text /homework/job1/output/medie_calcolate"
 dati_precedenti <- fread(nome_file_precedente)
 # calcolo somma dei quadrati delle differenze
 env <- new.env(hash = TRUE)
