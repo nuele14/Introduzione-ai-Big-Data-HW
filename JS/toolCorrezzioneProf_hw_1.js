@@ -31,7 +31,10 @@ function jobInputSplit ( input_str ) {
     //scrivo il codice di split
     return input_str.split('\n');
 }
-function keyVal(k,v){  return k+S[0]+v }
+
+function keyVal(k,v){ 
+    return k+S[0]+v
+}
 
 function jobMap ( V_In_Map ) {
     
@@ -46,7 +49,8 @@ function jobMap ( V_In_Map ) {
         if(tipoOrdine === "FATTURA" || tipoOrdine === "RICEVUTA"){
             chiave = data.slice(0,6);
             valore = costo;
-        }else
+        }
+        else
         {
             chiave = "NULL";
             valore = 0;
@@ -59,15 +63,15 @@ function jobReduce ( K_In_Reduce_V_In_Reduce ) {
     
     return K_In_Reduce_V_In_Reduce.map(function (items){
         var K_In_Reduce = items.split(S[0])[0];
-    var V_In_Reduce = items.split(S[0])[1].split(S[1]);
-    //scrivo il codice di split
-    var Reduce = V_In_Reduce.reduce(function (accumulator, item,) {
+        var V_In_Reduce = items.split(S[0])[1].split(S[1]);
+        //scrivo il codice di split
+        var Reduce = V_In_Reduce.reduce(function (accumulator, item,) {
             if(K_In_Reduce !== "NULL"){
-             return parseInt(accumulator) + parseInt(item);
+                return parseInt(accumulator) + parseInt(item);
             }
             return 0;
-    },0);  
-    var k_out = K_In_Reduce;
+        },0);  
+        var k_out = K_In_Reduce;
         var v_out = (Reduce/V_In_Reduce.length).toFixed(2)  ;
         return keyVal (k_out,v_out);
     });

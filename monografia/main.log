@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.4.6)  29 AUG 2023 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.4.6)  29 AUG 2023 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,43 +195,62 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@delta=\dimen156
 \TX@cols=\count278
 \TX@ftn=\toks23
+) (/Users/emanuelecoltro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+ (/Users/emanuelecoltro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 46.
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 59.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
+\l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box58
-) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/abstract.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/introduzione.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux))
+) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/abstract.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/introduzione.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/svolgimento.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen157
+\scratchcounter=\count282
+\scratchdimen=\dimen165
 \scratchbox=\box59
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen158
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen166
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks25
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -239,9 +258,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count286
-LaTeX Info: Redefining \it@ocap on input line 46.
-LaTeX Info: Redefining \it@ccap on input line 46.
+\c@lstlisting=\count288
+LaTeX Info: Redefining \it@ocap on input line 59.
+LaTeX Info: Redefining \it@ccap on input line 59.
 
 
 File italian.ldf warning: 
@@ -249,12 +268,14 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 46.
+italian.ldf    on input line 59.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 \openout2 = `python_def.aux'.
 
 (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.tex)
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 48.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 61.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -370,10 +391,44 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 99.
-) [8]
+ [8]) [9]
+\openout2 = `svolgimento.aux'.
+
+ (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/svolgimento.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 17.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 19.
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [10
+
+
+
+]
+<img/media_r.png, id=58, 237.88875pt x 256.96pt>
+File: img/media_r.png Graphic file (type png)
+<use img/media_r.png>
+Package pdftex.def Info: img/media_r.png  used on input line 50.
+(pdftex.def)             Requested size: 117.00119pt x 126.382pt.
+<img/varianza_r.png, id=59, 200.75pt x 254.9525pt>
+File: img/varianza_r.png Graphic file (type png)
+<use img/varianza_r.png>
+Package pdftex.def Info: img/varianza_r.png  used on input line 59.
+(pdftex.def)             Requested size: 117.00119pt x 148.59613pt.
+ [11 </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/media_r.png> </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/varianza_r.png>] (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)) [12] [13]
 \openout2 = `conclusioni.aux'.
 
- (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.tex) [9
+ (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.tex) [14
 
 
 
@@ -382,21 +437,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 6.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [10
+) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r [15
 
 
 
@@ -405,7 +446,7 @@ Overfull \hbox (16.25992pt too wide) in paragraph at lines 26--57
  [][] 
  []
 
-[11] [12] [13]) [14] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.lof)
+[16] [17] [18]) [19] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -429,22 +470,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
 []\OT1/lmss/m/n/12 The Apa-che Soft-ware Foun-da-tion.  Apa-che ha-doop.  url:
  []
 
-) [15
+) [20
 
 
-] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/abstract.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/introduzione.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux)) ) 
+] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/abstract.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/introduzione.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/svolgimento.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux)) ) 
 Here is how much of TeX's memory you used:
- 7511 strings out of 475286
- 121902 string characters out of 2771244
- 1064250 words of memory out of 3000000
- 28813 multiletter control sequences out of 15000+600000
+ 8926 strings out of 475286
+ 150507 string characters out of 2771244
+ 1059716 words of memory out of 3000000
+ 30211 multiletter control sequences out of 15000+600000
  535318 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,62p,766b,2429s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmtt.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmsc.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmcsc10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.pdf" (16 pages, 462708 bytes).
+ 55i,11n,63p,766b,2115s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmtt.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathex.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmsc.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmcsc10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt12.pfb>
+Output written on "/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.pdf" (21 pages, 541473 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
