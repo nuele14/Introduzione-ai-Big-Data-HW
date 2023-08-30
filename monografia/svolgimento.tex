@@ -129,4 +129,50 @@ In questa fase, ho preferito non dilungarmi nell'analisi dell'algoritmo (visto c
 \subsubsection{MapReduce con Python e Hadoop}
 Visto che negli ultimi anni Python si sta affermando come linguaggio di programmazione per la data Science, molti programmi e piattaforme si sono aperti alla compatibilità con esso. Su Hadoop, è infatti possibile sfruttare il paradigma MapReduce facendo scripting, oltre che con R, anche con Java e Python. Ho voluto così tradurre il lavoro fatto fino adesso in R anche in Python e fare una piccola comparazione delle performance di questi due linguaggi. Anche qui, non entro nel merito dell'implementazione, in quanto l'algoritmo è esattamente lo stesso. Cambia solo il linguaggio in cui è scritto.
 
-\subsection{Analisi dei risultati}
+\subsection{Rapporto finale}
+L'analisi delle vendite fornisce una panoramica dettagliata dell'andamento del fatturato dell'azienda con una granularità mensile. Tale analisi può aiutare l'azienda a comprendere i modelli di vendita, prendere decisioni informate e pianificare per il futuro. \footnote{È stato notato come in alcuni mesi non sia stato prodotto del fatturato (ad esempio, aprile 2020). Si sarebbe potuto decidere di andare a forzare il valore a 0, ma è stata scelta l'opzione di escludere tale dato poiché è possibile che coincida con un periodo di chiusura aziendale e un valore a 0 non porterebbe informazioni aggiuntive al fine di fare una analisi strategica con le strategie implementate.}
+\subsubsection{Job 1 - Media di vendita per ogni mese}
+Dalla Figura \ref{figure:medie} si può avere una visione globale delle vendite medie mensili. Tale dato consente di identificare i periodi in cui le vendite sono state particolarmente robuste o al di sotto delle aspettative.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.3]{img/medie.png}
+    \caption{Grafico di elaborazione delle medie mensili}
+    \label{figure:medie}
+\end{figure}
+L'andamento di crescita o di stagnazione delle vendite può confermare e influenzare le strategie aziendali e gli sforzi di marketing in determinati mesi e su determinate campagne.
+\subsubsection{Job 2 - Varianza di vendita per ogni mese}
+La Figura \ref{figure:varianze} evidenzia l'ampiezza delle fluttuazioni mensili rispetto alla media. Un valore più alto indica una maggiore volatilità nelle vendite, mentre un valore più basso suggerisce una maggiore stabilità.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.3]{img/varianza.png}
+    \caption{Grafico di elaborazione delle varianze mensili}
+    \label{figure:varianze}
+\end{figure}
+Queste informazioni sono preziose per comprendere l'incertezza e l'irregolarità delle vendite durante alcuni periodi dell'anno.
+\subsubsection{Job 3 e 4 - Mesi migliori e peggiori di ogni anno}
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/fatturato per anno.png}
+    \caption{Suddivisione fatturato per anno}
+    \label{figure:fatturatoAnno}
+\end{wrapfigure}
+
+La Figura \ref{figure:fatturatoAnno} fornisce una visione globale del fatturato dell'azienda in questi anni, contestualizzando i mesi migliori e peggiori di ogni anno (sempre in riferimento alla media globale delle vendite).
+
+
+L'individuazione del mese con le maggiori vendite (Figura \ref{fig:max}) è fondamentale per focalizzare l'attenzione sui fattori che hanno contribuito a questo successo, mentre l'analisi dei mesi con vendite più basse (Figura \ref{fig:min}) porta alla luce fattori di debolezza. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.3]{img/max.png}
+    \caption{Migliori mesi}
+        \label{fig:max}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.3]{img/min.png}
+    \caption{Peggiori mesi}
+        \label{fig:min}
+\end{figure}
+Fattori come la stagionalità, le tendenze di mercato o le concomitanze avverse possono aver influenzato le vendite, così come potrebbero essere state implementate strategie specifiche o eventi particolari che hanno spinto le vendite al di sopra della media.
+\subsubsection{Analisi}
+Analizzare le condizioni e le tattiche associate ai mesi in questione può fornire lezioni preziose per guidare le future iniziative aziendali e aiutare a mitigare gli effetti negativi in situazioni simili in futuro.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.4.6)  29 AUG 2023 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.4.6)  30 AUG 2023 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,10 +425,42 @@ Package pdftex.def Info: img/varianza_r.png  used on input line 59.
 (pdftex.def)             Requested size: 117.00119pt x 148.59613pt.
  [11 </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/media_r.png> </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/varianza_r.png>] (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [12] [13]) [14]
+) [12] [13] [14]
+<img/medie.png, id=76, 1113.15875pt x 497.86pt>
+File: img/medie.png Graphic file (type png)
+<use img/medie.png>
+Package pdftex.def Info: img/medie.png  used on input line 138.
+(pdftex.def)             Requested size: 333.95021pt x 149.35915pt.
+<img/varianza.png, id=77, 1353.055pt x 619.31375pt>
+File: img/varianza.png Graphic file (type png)
+<use img/varianza.png>
+Package pdftex.def Info: img/varianza.png  used on input line 147.
+(pdftex.def)             Requested size: 405.91963pt x 185.79555pt.
+
+Overfull \hbox (15.91963pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+[15 </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/medie.png>]
+<img/fatturato per anno.png, id=82, 1206.5075pt x 619.31375pt>
+File: img/fatturato per anno.png Graphic file (type png)
+<use img/fatturato per anno.png>
+Package pdftex.def Info: img/fatturato per anno.png  used on input line 155.
+(pdftex.def)             Requested size: 195.0pt x 100.09392pt.
+<img/max.png, id=83, 629.35126pt x 619.31375pt>
+File: img/max.png Graphic file (type png)
+<use img/max.png>
+Package pdftex.def Info: img/max.png  used on input line 166.
+(pdftex.def)             Requested size: 188.80682pt x 185.79555pt.
+<img/min.png, id=84, 629.35126pt x 619.31375pt>
+File: img/min.png Graphic file (type png)
+<use img/min.png>
+Package pdftex.def Info: img/min.png  used on input line 172.
+(pdftex.def)             Requested size: 188.80682pt x 185.79555pt.
+ [16 </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/varianza.png> </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/fatturato per anno.png>]) [17 </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/max.png> </Users/emanuelecoltro/Documents/Università/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/img/min.png>]
 \openout2 = `conclusioni.aux'.
 
- (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.tex) [15
+ (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.tex) [18
 
 
 
@@ -437,7 +469,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 
  (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r [16
+) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/demo.py) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/HW_R.r [19
 
 
 
@@ -446,7 +478,7 @@ Overfull \hbox (16.25992pt too wide) in paragraph at lines 26--57
  [][] 
  []
 
-[17] [18] [19]) [20] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.lof)
+[20] [21] [22]) [23] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -470,22 +502,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
 []\OT1/lmss/m/n/12 The Apa-che Soft-ware Foun-da-tion.  Apa-che ha-doop.  url:
  []
 
-) [21
+) [24
 
 
 ] (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.aux (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/python_def.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/titoli.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/abstract.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/introduzione.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/svolgimento.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/conclusioni.aux) (/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/allegato1.aux)) ) 
 Here is how much of TeX's memory you used:
- 8926 strings out of 475286
- 150507 string characters out of 2771244
- 1059716 words of memory out of 3000000
- 30211 multiletter control sequences out of 15000+600000
+ 8965 strings out of 475286
+ 151270 string characters out of 2771244
+ 1059761 words of memory out of 3000000
+ 30247 multiletter control sequences out of 15000+600000
  535318 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,777b,2115s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,11n,63p,855b,2115s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmtt.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathex.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rmsc.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmcsc10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.pdf" (22 pages, 547758 bytes).
+Output written on "/Users/emanuelecoltro/Documents/Universit^^c3^^a0/Uninettuno/Corsi/Introduzione ai Big Data/Manu/HomeworkManu/monografia/main.pdf" (25 pages, 734419 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 191 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

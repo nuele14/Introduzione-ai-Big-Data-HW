@@ -11,9 +11,9 @@ L'algoritmo MapReduce è un modello di programmazione e un'infrastruttura di ela
 L'idea alla base di MapReduce è suddividere un grande task di elaborazione dei dati in due fasi principali: la fase di "map" e la fase di "reduce" (più una fase intermedia totalmente automatizzata):
 
 \begin{itemize}
-    \item Durante la fase di MapReduce, i dati di input vengono suddivisi in piccoli frammenti e passati a un insieme di processi paralleli chiamati "mapper". Ogni mapper esegue una funzione di mappatura definita dall'utente che prende in ingresso un dato e produce una serie di coppie chiave-valore intermedie. Queste coppie rappresentano il risultato dell'elaborazione dei dati da parte dei mapper.
-    \item Dopo la fase di map, il sistema raggruppa le coppie chiave-valore in base alle chiavi e le ordina nella fase di Shuffle e Sort. Questo è un passaggio cruciale poiché consente ai dati correlati di essere inviati allo stesso processo di "reduce".
-    \item In questa fase, il sistema assegna le coppie chiave-valore raggruppate ai processi "reducer". Ogni processo reducer esegue una funzione di riduzione definita dall'utente che agisce sulle coppie chiave-valore correlate e produce i risultati finali dell'elaborazione.
+    \item \textbf{Map:} Durante la fase di MapReduce, i dati di input vengono suddivisi in piccoli frammenti (split) e passati a un insieme di processi paralleli chiamati "Worker". Ognuno di essi esegue una funzione di mapping definita dall'utente che prende in ingresso un dato e produce una serie di coppie chiave-valore intermedie. Queste coppie rappresentano il risultato dell'elaborazione dei dati nella fase di mapping.
+    \item \textbf{Shuffle e Sort:} Dopo la fase di map, il sistema raggruppa le coppie chiave-valore in base alle chiavi e le ordina nella fase di Shuffle e Sort. Questo è un passaggio cruciale poiché consente ai dati correlati di essere inviati allo stesso processo di "reduce".
+    \item \textbf{Reduce:} Nell'ultima fase il sistema assegna le coppie chiave-valore raggruppate nuovamente ai processi worker. Ogni processo esegue una funzione di "reduce" definita dall'utente che agisce sulle coppie chiave-valore correlate e produce i risultati finali dell'elaborazione.
 \end{itemize}
 
 \begin{figure}[H]

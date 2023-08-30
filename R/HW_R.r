@@ -56,7 +56,7 @@ varianza_mesi <- varianza_mesi %>%
   mutate(data_formattata = paste(anno, mese_testuale, sep = "-"))
 
 varianza_mesi <- varianza_mesi %>%
-  select(data ,vendite_medie, data_formattata)
+  select(data ,varianza, data_formattata)
 #JOB3
 somma_mesi = aggregate(documenti_vendita$costo, by = list(mesi), FUN = sum)
 
@@ -89,7 +89,11 @@ library(ggplot2)
 
 media_generale <- mean(media_mesi$vendite_medie)
 
-ggplot(media_mesi, aes(x = data_formattata, y = vendite_medie, group = 1)) + geom_line() + geom_point() + ggtitle("Medie per Mese") + geom_hline(yintercept = media_generale, color = "red", linetype = "dashed", size = 1) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = "Date", y = " Importo medio (€)")
+media_mesi <- media_mesi[order(media_mesi$data),]
+
+media_mesi$data_formattata <- factor(media_mesi$data_formattata, levels = unique(media_mesi$data_formattata))
+
+ggplot(media_mesi, aes(x = data_formattata, y = vendite_medie, group = 1,)) + geom_line() + geom_point() + ggtitle("Medie per Mese") + geom_hline(yintercept = media_generale, color = "red", linetype = "dashed", size = 1) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = "Date", y = " Importo medio (€)")
 # da aggiungere per fare vedere la media generale geom_hline(yintercept = valore_linea, linetype = "dashed", color = "red")
 
 ggplot(varianza_mesi, aes(x = data_formattata, y = varianza)) +
@@ -99,6 +103,10 @@ ggplot(varianza_mesi, aes(x = data_formattata, y = varianza)) +
   theme_minimal()
 
 dati_vendite <- merge(media_mesi, varianza_mesi, by = "data", all = TRUE)
+
+dati_vendite <- dati_vendite[order(dati_vendite$data),]
+
+dati_vendite$data_formattata.x <- factor(dati_vendite$data_formattata.x, levels = unique(dati_vendite$data_formattata.x))
 
 ggplot(dati_vendite, aes(x = data_formattata.x, y = vendite_medie)) +
   geom_boxplot(fill = "lightblue", color = "darkblue") +
