@@ -21,12 +21,12 @@
 \contentsline {subsection}{\numberline {2.4}MapReduce usando Javascript}{11}{}%
 \contentsline {subsection}{\numberline {2.5}MapReduce usando R e Hadoop}{13}{}%
 \contentsline {subsubsection}{\numberline {2.5.1}Scripting}{13}{}%
-\contentsline {subsubsection}{\numberline {2.5.2}Implementazione in R}{13}{}%
-\contentsline {subsubsection}{\numberline {2.5.3}MapReduce con Python e Hadoop}{14}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Implementazione in R}{14}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}MapReduce con Python e Hadoop}{15}{}%
 \contentsline {subsection}{\numberline {2.6}Rapporto finale}{15}{}%
-\contentsline {subsubsection}{\numberline {2.6.1}Job 1 - Media di vendita per ogni mese}{15}{}%
-\contentsline {subsubsection}{\numberline {2.6.2}Job 2 - Varianza di vendita per ogni mese}{15}{}%
-\contentsline {subsubsection}{\numberline {2.6.3}Job 3 e 4 - Mesi migliori e peggiori di ogni anno}{16}{}%
-\contentsline {subsubsection}{\numberline {2.6.4}Analisi}{17}{}%
-\contentsline {section}{\numberline {3}Conclusioni}{18}{}%
-\contentsline {section}{\numberline {}Allegato 1}{19}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Job 1 - Media di vendita per ogni mese}{16}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Job 2 - Varianza di vendita per ogni mese}{16}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}Job 3 e 4 - Mesi migliori e peggiori di ogni anno}{17}{}%
+\contentsline {subsubsection}{\numberline {2.6.4}Analisi}{18}{}%
+\contentsline {section}{\numberline {3}Conclusioni}{19}{}%
+\contentsline {section}{\numberline {}Allegato}{20}{}%

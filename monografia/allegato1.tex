@@ -1,136 +1,45 @@
-\section*{Allegato 1}
-\addcontentsline{toc}{section}{\protect\numberline{}Allegato 1}
-\subsection*{Fattori di standardizzazione in base alle tematiche}
-\subsubsection*{Energia Primaria}
+\section*{Allegato}
+\addcontentsline{toc}{section}{\protect\numberline{}Allegato}
+\subsection*{Risoluzione problema tramite R}
+contabilita.r
+\lstinputlisting[language=R, label=codecontabilita_r]{script/contabilita.r}
+\subsection*{Codice MapReduce}
+\subsubsection*{Javascript per Mapreduce Tool}
+Script inseriti nel Tool Js+html
 
-\lstinputlisting[language=Python, firstline=1, lastline=30, caption=Python exampl]{demo.py}
+job1.js
+\lstinputlisting[language=Java, label=codejs_job1]{script/job1.js}
+job2.js\footnote{NB: per il job2 e il prejob34.js non è riportato lo script di mapping in quanto è uguale a quello del job1}
+\lstinputlisting[language=Java, label=codejs_job2]{script/job2.js}
+prejob34.js\footnote{Questo script è stato utilizzato come pre processazione per i job3 e job4}
+\lstinputlisting[language=Java, label=codejsprejob34]{script/prejob34.js}
+job3.js
+\lstinputlisting[language=Java, label=codejs_job3]{script/job3.js}
+job4.js
+\lstinputlisting[language=Java, label=codejs_job4]{script/job4.js}
+\subsubsection*{Script Bash}
+\texttt{all\_jobs.sh}\footnote{il codice per eseguire i job in python è stato omesso in quanto è molto simile a quello in R, cambiano solo i nomi degli script in input}
+\lstinputlisting[language=Bash, label=codebash]{script/all_jobs.sh}
 
-\lstinputlisting[language=R, firstline=1, lastline=30]{HW_R.r}
-
-
-Questo indicatore considera la richiesta di energia primaria per l'intero ciclo di vita del prodotto considerato, tenendo conto, ad esempio, della trasformazione dei materiali combustibili in energia elettrica.
-
-A questo indicatore contribuiscono quindi i materiali combustibili con il loro contenuto di energia primaria.
-
-Il fattore di caratterizzazione è in questo caso il potere calorifico del materiale considerato.
-\subsubsection*{Effetto Serra}
-L'indicatore effetto serra viene calcolato considerando, tra le sostanze emesse in aria, quelle che contribuiscono al potenziale riscaldamento globale del pianeta Terra.
-
-La quantità in massa di ciascuna sostanza, calcolata sull'intero ciclo di vita del prodotto, viene moltiplicata per un coefficiente di peso chiamato potenziale di riscaldamento globale (GWP, Global Warming Potential). Sommando poi i contributi delle varie sostanze, si ottiene il valore aggregato dell'indicatore.
-
-Le sostanze che contribuiscono all'effetto serra sono principalmente: CO2, CH4, N2O, CFC, gli HCFC e gli HFC.
-
-La CO2 è la sostanza di riferimento per questo indicatore, vale a dire che il suo coefficiente di peso è uguale a 1 e i valori dell'indicatore sono espressi in kg di CO2 equivalente (kg CO2 eq).
-\begin{table}[!ht]
-    \centering
-    \begin{tabular}{|| c | c | c ||} %l=left, c=center, r=right il | serve per separare le colonne
-        \hline
-        \textbf{Composto} &\textbf{Formula	GWP100} & \textbf{[kg CO2/kg gas]}\\
-        \hline\hline
-        Diossido di carbonio &	CO2	& 1 \\
-        \hline
-        Ossido di carbonio & CO &	2\\
-        \hline
-        Metano	& CH4	& 11\\
-        \hline
-        Ossido di azoto	& N2O	& 320\\
-        \hline
-        CFC-11	& CFCl3	& 4.000\\
-        \hline
-        CFC-12	& CF2Cl2	& 8.500\\
-        \hline
-        Clorotrifluorometano (CFC-13)	& CF3Cl	& 11.700\\
-        \hline
-        Tetrafluorometano (CFC-14)	& CF4	& 9.300\\
-        \hline
-        HCFC-22	& CHF2Cl	& 1.700\\
-        \hline
-        HCFC-125	& CHF2CF3	& 3400\\
-        \hline
-        Halon-1301	& CF3Br	& 5.600\\
-        \hline
-        Diclorometano	& CH2Cl2	& 25\\
-        \hline
-        Cloroformio	& CHCl3	& 15\\
-        \hline
-    \end{tabular}
-    \caption{Fattori di standardizzazione per i principali responsabili dell'effetto serra, basati sul loro diretto contributo al riscaldamento globale con un tempo-orizzonte di 100 anni.}
-    \label{tabellaFattoriEffettoSerra}
-\end{table}
-	 
-
-
-\subsubsection*{Assottigliamento della fascia di ozono stratosferico}
-La riduzione della fascia di ozono stratosferico viene calcolata come l'indicatore precedente, ma utilizzando diverse sostanze (CFC, HCFC) e un diverso coefficiente di peso, chiamato potenziale di riduzione dell'ozono (ODP, Ozone Depletion Potential).
-
-La sostanza di riferimento in questo caso è un clorofluorocarburo, precisamente il CFC-11.
-\subsubsection*{Eutrofizzazione}
-Questo indicatore valuta l'effetto dell'eutrofizzazione, ovvero l'aumento della concentrazione di sostanze nutritive negli ambienti acquatici. Le sostanze che contribuiscono al fenomeno dell'eutrofizzazione sono i composti a base di fosforo e azoto.
-
-La sostanza di riferimento è il fosfato (PO4) e il coefficiente di peso prende il nome di potenziale di nutrificazione (NP, Nutrification Potential).
-\begin{table}[!ht]
-    \centering
-    \begin{tabular}{|| c | c ||} %l=left, c=center, r=right il | serve per separare le colonne
-        \hline
-        \textbf{Formula} &\textbf{NEP [kg NO3-/kg compost]} \\
-        \hline\hline
-        NO3-	& 1\\
-        \hline
-        NO2	&1.35\\
-        \hline
-        NOx	& 1.35\\
-        \hline
-        NO	&2.07\\
-        \hline
-        N2O	&2.82\\
-        \hline
-        NH3	&3.64\\
-        \hline
-        HCN	&2.29\\
-        \hline
-        N	&4.43\\
-        \hline
-        PO4---	&10.45\\
-        \hline
-        P	&32.03\\
-        \hline
-    \end{tabular}
-    \caption{Fattori di standardizzazione per i principali responsabili dell'effetto serra, basati sul loro diretto contributo al riscaldamento globale con un tempo-orizzonte di 100 anni.}
-    \label{tabellaFattoriEutrofizzazione}
-\end{table}
-	
-
-\subsubsection*{Formazione di smog fotochimico (photo-smog)}
-Il termine "smog estivo" si riferisce a tutte le sostanze organiche volatili che portano alla formazione di ozono troposferico attraverso reazioni fotochimiche (in presenza di radiazione solare).
-
-Il fattore di caratterizzazione utilizzato è chiamato "potenziale di formazione di ozono fotochimico" (POCP, Photochemical Ozone Creation Potential) e la sostanza di riferimento è l'etilene (C2H4).
-\begin{table}[!ht]
-    \centering
-    \begin{tabular}{|| c | c ||} %l=left, c=center, r=right il | serve per separare le colonne
-        \hline
-        \textbf{Composto} &\textbf{POCP [g C2H4/g di composto]} \\
-        \hline\hline
-        metano	&0,007\\
-        \hline
-        etano	&0,100\\
-        \hline
-        propano	&0,500\\
-        \hline
-        aldeidi	&0,3±0,2\\
-        \hline
-        CO	&0,040\\
-        \hline
-        metanolo	&0,123\\
-        \hline
-        etanolo	&0,268\\
-        \hline
-    \end{tabular}
-    \caption{Fattori di standardizzazione per i principali responsabili dello smog fotochimico.}
-    \label{tabellaFattoriPhotoSmog}
-\end{table}
-	
-
-\subsubsection*{Rifiuti Solidi}
-L'indicatore in questione raggruppa tutti i rifiuti di tipo solido generati in qualsiasi attività nel ciclo di vita di un prodotto, ad esempio durante la generazione di energia elettrica necessaria per una lavorazione o durante la produzione delle lamiere di acciaio.
-
-Non esistono fattori di caratterizzazione per questo indicatore, e ogni sostanza viene sommata alle altre tenendo semplicemente conto della quantità emessa in massa.
+\subsubsection*{Script R}
+mapper.r
+\lstinputlisting[language=R, label=codemapperR]{script/mapper.r}
+\texttt{reducer\_job1.r}
+\lstinputlisting[language=R, label=codereducerRjob1]{script/reducer_job1.r}
+\texttt{reducer\_job2.r}
+\lstinputlisting[language=R, label=codereducerRjob2]{script/reducer_job2.r}
+\texttt{reducer\_job3.r}
+\lstinputlisting[language=R, label=codereducerRjob3]{script/reducer_job3.r}
+\texttt{reducer\_job4.r}
+\lstinputlisting[language=R, label=codereducerRjob4]{script/reducer_job4.r}
+\subsubsection*{Script Python}
+mapper.py
+\lstinputlisting[language=Python, label=codemapperPy]{script/mapper.py}
+\texttt{reducer\_job1.py}
+\lstinputlisting[language=Python, label=codereducerPyjob1]{script/reducer_job1.py}
+\texttt{reducer\_job2.py}
+\lstinputlisting[language=Python, label=codereducerPyjob2]{script/reducer_job2.py}
+\texttt{reducer\_job3.py}
+\lstinputlisting[language=Python, label=codereducerPyjob3]{script/reducer_job3.py}
+\texttt{reducer\_job4.py}
+\lstinputlisting[language=Python, label=codereducerPyjob4]{script/reducer_job4.py}
